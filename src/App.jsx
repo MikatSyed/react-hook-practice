@@ -14,6 +14,9 @@ import ComplexCounter from './Components/useReducer/ComplexCounter/ConplexCounte
 import SimpleCounter from './Components/useReducer/SimpleCounter/SimpleCounter'
 import AppAlt from './AppAlt'
 import GetPost from './Components/useReducer/GetPost/GetPost'
+import GetPost2 from './Components/useReducer/GetPost2/GetPost2'
+import LayoutComponentOne from './Components/CustomHook/LayoutComponentOne/LayoutComponentOne'
+import LayoutComponentTwo from './Components/CustomHook/LayoutComponentTwo/LayoutComponentTwo'
 
 
 function App() {
@@ -37,7 +40,10 @@ function App() {
        {/* <ComplexCounter/> */}
        {/* <SimpleCounter/> */}
        {/* <AppAlt/> */}
-       <GetPost/>
+       {/* <GetPost/> */}
+       {/* <GetPost2/> */}
+       <LayoutComponentOne/>
+       <LayoutComponentTwo/>
     </div>
   )
 }
