@@ -9,6 +9,11 @@ import MyComponent from './Components/UseEffect/myComponent/MyComponent'
 import Main from './Components/UseCallBack & UseMemo/main/main'
 import Time from './Components/UseRef/Time/Time'
 import Form from './Components/UseRef/Form/Form'
+import Counter2 from './Components/useReducer/Counter2/Counter2'
+import ComplexCounter from './Components/useReducer/ComplexCounter/ConplexCounter'
+import SimpleCounter from './Components/useReducer/SimpleCounter/SimpleCounter'
+import AppAlt from './AppAlt'
+import GetPost from './Components/useReducer/GetPost/GetPost'
 
 
 function App() {
@@ -16,18 +21,23 @@ function App() {
 
   return (
     <div className="App">
-      <TodoList/>
-      <Counter/>
+      {/* <TodoList/>
+      <Counter/> */}
       {/* <MyComponentClass/> */}
-      <div>
+      {/* <div>
         {show && <MyComponent/>}
-      </div>
+      </div> */}
      
-      <p> <button type="button" onClick={()=> setShow((prevState)=> !prevState)}>{show ? 'Hide post' : 'Show post'}</button></p>
+      {/* <p> <button type="button" onClick={()=> setShow((prevState)=> !prevState)}>{show ? 'Hide post' : 'Show post'}</button></p>
       <Main/>
       <Form/>
       <Time/>
-      
+       */}
+       {/* <Counter2/> */}
+       {/* <ComplexCounter/> */}
+       {/* <SimpleCounter/> */}
+       {/* <AppAlt/> */}
+       <GetPost/>
     </div>
   )
 }
