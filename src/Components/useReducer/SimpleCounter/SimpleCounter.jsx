@@ -20,6 +20,7 @@ export default function Counter() {
 
     return (
         <div>
+        <h2> UseReducer</h2>
             <div>
                 <div>Count - {count}</div>
                 <button type="button" onClick={() => dispatch('increment')}>

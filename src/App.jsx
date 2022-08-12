@@ -24,26 +24,26 @@ function App() {
 
   return (
     <div className="App">
-      {/* <TodoList/>
-      <Counter/> */}
-      {/* <MyComponentClass/> */}
-      {/* <div>
+      <TodoList/>
+      <Counter/>
+      <MyComponentClass/>
+      <div>
         {show && <MyComponent/>}
-      </div> */}
+      </div>
      
-      {/* <p> <button type="button" onClick={()=> setShow((prevState)=> !prevState)}>{show ? 'Hide post' : 'Show post'}</button></p>
+      <p> <button type="button" onClick={()=> setShow((prevState)=> !prevState)}>{show ? 'Hide post' : 'Show post'}</button></p>
       <Main/>
       <Form/>
       <Time/>
-       */}
+      
        {/* <Counter2/> */}
        {/* <ComplexCounter/> */}
-       {/* <SimpleCounter/> */}
-       {/* <AppAlt/> */}
+       <SimpleCounter/>
+       <AppAlt/>
        {/* <GetPost/> */}
-       {/* <GetPost2/> */}
+       <GetPost2/>
        <LayoutComponentOne/>
-       <LayoutComponentTwo/>
+       {/* <LayoutComponentTwo/> */}
     </div>
   )
 }
